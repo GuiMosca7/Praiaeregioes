@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Praias do Brasil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        header {
+            background-color: #0288d1;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0288d1;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .region {
+            margin-bottom: 2rem;
+        }
+        .region h2 {
+            color: #02689d;
+            border-bottom: 2px solid #0288d1;
+            padding-bottom: 0.5rem;
+        }
+        .beaches {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .beach {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            width: calc(33% - 2rem);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .beach img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .beach h3 {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+        footer {
+            background-color: #0288d1;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Praias do Brasil</h1>
+        <p>Descubra os melhores destinos para sua próxima viagem</p>
+    </header>
+
+    <nav>
+        <a href="#nordeste">Nordeste</a>
+        <a href="#sudeste">Sudeste</a>
+        <a href="#sul">Sul</a>
+    </nav>
+
+    <div class="container">
+        <!-- Região Nordeste -->
+        <section class="region" id="nordeste">
+            <h2>Nordeste</h2>
+            <div class="beaches">
+                <div class="beach">
+                    <img src="estrutura-da-praia-do-felix.jpg" alt="Praia de Porto de Galinhas">
+                    <h3>Porto de Galinhas - PE</h3>
+                    <p>Famosa por suas piscinas naturais e águas cristalinas.</p>
+                </div>
+                <div class="beach">
+                    <img src="images.jpg" alt="Praia de Jericoacoara">
+                    <h3>Jericoacoara - CE</h3>
+                    <p>Conhecida por suas dunas e pôr do sol espetacular.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Região Sudeste -->
+        <section class="region" id="sudeste">
+            <h2>Sudeste</h2>
+            <div class="beaches">
+                <div class="beach">
+                    <img src="transferir.jpg" alt="Praia de Ipanema">
+                    <h3>Ipanema - RJ</h3>
+                    <p>Um ícone do Rio de Janeiro, perfeita para relaxar.</p>
+                </div>
+                <div class="beach">
+                    <img src="curiosidades-sobre-ipanema-1.jpg" alt="Praia do Guarujá">
+                    <h3>Praia do Guarujá - SP</h3>
+                    <p>Destino popular para famílias no litoral paulista.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Região Sul -->
+        <section class="region" id="sul">
+            <h2>Sul</h2>
+            <div class="beaches">
+                <div class="beach">
+                    <img src="1446803542.jpg" alt="Praia de Bombinhas">
+                    <h3>Bombinhas - SC</h3>
+                    <p>Conhecida por suas águas claras e tranquilas.</p>
+                </div>
+                <div class="beach">
+                    <img src="4134006506_49eb609620_k.jpg" alt="Praia da Joaquina">
+                    <h3>Joaquina - SC</h3>
+                    <p>Famosa entre os surfistas pela qualidade das ondas.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   
+</body>
+</html>
+
